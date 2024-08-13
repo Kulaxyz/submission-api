@@ -48,6 +48,12 @@ sail artisan migrate
 sail artisan storage:link
 ```
 
+#### To run the tests, you can use the following command:
+
+```sh
+sail test
+```
+
 #### After this steps, you can access your app from [http://localhost:80](http://localhost:80).
 
 The only endpoint is `/submit` which accepts a POST request with the following JSON body:
