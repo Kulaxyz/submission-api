@@ -15,6 +15,8 @@ use Illuminate\Database\Eloquent\Model;
  */
 final class Submission extends Model
 {
+    protected $fillable = ['email', 'name', 'message'];
+
     public static function new(Email $email, string $name, string $message): self
     {
          return self::create([
