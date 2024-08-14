@@ -46,6 +46,7 @@ sail composer install
 sail artisan key:generate
 sail artisan migrate
 sail artisan storage:link
+sail artisan queue:work
 ```
 
 #### To run the tests, you can use the following command:
